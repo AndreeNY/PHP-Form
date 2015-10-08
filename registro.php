@@ -1,6 +1,6 @@
 <?php
 
-// si no proviene del formulario, redireccionar
+// si no proviene del formulario, redireccionar //si llega datos del form.
 if (!isset($_POST['email'])) {
     header('Location: index.php');
 }
